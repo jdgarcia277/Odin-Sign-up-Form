@@ -21,6 +21,7 @@
     background-image: url("Images/leaf-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
 }
 
@@ -48,5 +49,16 @@
 }
 
 .logo-name {
+    color: white;
+}
+
+.credit {
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 28%;
+}
+
+.credit a{
     color: white;
 }
