@@ -16,6 +16,29 @@
     border-radius: 8px;
 }
 
+.grid-form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5%;
+}
+
+.grid-form>div>label {
+    display:block
+}
+
+.grid-form>div>input {
+    border: solid;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+}
+
+.grid-header {
+    grid-column: span 2;
+}
+
+.empty-grid {
+    grid-column: span 2;
+}
 .banner {
     width:40%;
     background-image: url("Images/leaf-background.jpg");
@@ -28,7 +51,21 @@
 .main-form {
     width: 60%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2%;
+    position: relative;
 
+}
+
+.submit-button{
+
+}
+
+.login-link {
+    position: absolute;
+    bottom: 5%;
 }
 
 .black-background {
